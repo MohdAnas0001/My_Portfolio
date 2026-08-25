@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohd Anas — Java Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Mohd Anas, a Java Full-Stack Developer specializing in Spring Boot, Hibernate and REST APIs."
+    />
+
+    <!-- Fonts: Space Grotesk (display), Inter (body), JetBrains Mono (code/utility) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ============================================================
+     NAV
+     To add a new section link: add an <a href="#id"> here and a
+     matching <section id="id"> below. Nothing else needs to change.
+============================================================ -->
+    <header class="nav" id="nav">
+      <div class="nav-inner">
+        <a href="#home" class="logo"
+          >anas<span class="dot">.</span>dev<span class="accent">()</span></a
+        >
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#about">about</a>
+          <a href="#experience">experience</a>
+          <a href="#skills">skills</a>
+          <a href="#projects">projects</a>
+          <a href="#certifications">certifications</a>
+          <a href="#resume">education</a>
+          <a href="#contact">contact</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-ghost nav-cta">let's talk</a>
+
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    
+     <!-- HERO -->
+
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Java Full-Stack Developer</p>
+          <h1>
+            Hi, I'm <span class="accent">Mohd Anas</span><br />I build
+            software<br />that behave.
+          </h1>
+          <p class="hero-sub">
+            B.Tech Computer Science graduate, currently sharpening full-stack
+            Java skills in a hands-on training program — Java, Spring Boot,
+            Hibernate, REST APIs and MySQL, end to end.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="/resume.pdf" class="btn btn-outline" download
+              >Download Resume</a
+            >
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span class="stat-num">8/10</span
+              ><span class="stat-label">CGPA, B.Tech CSE</span>
+            </div>
+            <div>
+              <span class="stat-num">9/10</span
+              ><span class="stat-label">CGPA, Intermediate</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div
+            class="editor"
+            role="img"
+            aria-label="Code editor showing a Java class describing the developer"
+          >
+            <div class="editor-titlebar">
+              <span class="dot-red"></span><span class="dot-yellow"></span
+              ><span class="dot-green"></span>
+              <span class="editor-filename">Developer.java</span>
+            </div>
+            <div class="editor-body">
+              <div class="gutter" id="gutter"></div>
+              <pre class="code" id="typedCode"><code></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section"
+        ><span></span
+      ></a>
+    </section>
+
+
+     <!-- ABOUT -->
+
+    <section class="section" id="about">
+      <p class="section-eyebrow">About</p>
+      <div class="about-grid">
+        <div class="about-photo">
+          <div class="photo-frame">
+            <img src="assets/profile.jpg" alt="Mohd Anas" />
+          </div>
+        </div>
+        <div class="about-copy">
+          <pre class="comment-block">
+ I enjoy building software systems and
+ like APIs that make sense, schemas that
+ don't lie, and layered architecture
+ that keeps growing without breaking.
+ </pre
+          >
+          <p>
+            I spend most of my time in Java and Spring Boot — designing REST
+            APIs, wiring up Hibernate against relational databases, and
+            structuring applications with clean layered design (Controller →
+            Service → Repository) for modularity and scale.
+          </p>
+          <p>
+            I recently built and deployed a full-stack AI chatbot end to end,
+            integrating an external LLM API through Spring Boot, and an Employee
+            Registration system covering the complete frontend-to-database flow.
+            Right now I'm deepening those skills through a full-stack Java
+            training program while applying for entry-level Java Developer, Backend Developer, or Java Full Stack Developer
+            roles.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+     <!-- EXPERIENCE -->
+
+    <section class="section" id="experience">
+      <p class="section-eyebrow">Experience</p>
+      <h2 class="section-title"></h2>
+
+      <div class="exp-card">
+        <div class="exp-head">
+          <div>
+            <h3>Java Full-Stack Development </h3>
+            <p class="exp-org">JSpider Software Training, Noida</p>
+          </div>
+          <span class="exp-date">Dec 2025 — Present</span>
+        </div>
+        <ul class="exp-list">
+          <li>
+            Gained hands-on exposure to full stack Java development, working
+            across both client-side and server-side technologies.
+          </li>
+          <li>
+            Architected and implemented backend services using Java, ensuring
+            robust data flow and seamless integration with front-end components.
+          </li>
+          <li>
+            Established and maintained RESTful communication standards across
+            application layers, verifying endpoint behavior through structured
+            API testing.
+          </li>
+          <li>
+            Structured applications using layered design principles to promote
+            modularity, maintainability, and scalability of the codebase.
+          </li>
+          <li>
+            Developed functional web applications by bridging user interface
+            design with server-side logic.
+          </li>
+          <li>
+            Used Git/GitHub for version control and collaborative development.
+          </li>
+        </ul>
+      </div>
+
+      <!-- To add another role: duplicate the .exp-card block above the closing </section> tag -->
+    </section>
+
+
+     <!-- SKILLS -->
+
+    <section class="section" id="skills">
+      <p class="section-eyebrow"> Technical Skills</p>
+      <!-- <h2 class="section-title">import skills.*;</h2> -->
+
+      <div class="skills-grid">
+        <div class="skill-block">
+          <p class="skill-import">            </p>
+          <div class="chip-row">
+            <span class="chip">Java</span>
+            <span class="chip">Spring Core</span>
+            <span class="chip">Spring Boot</span>
+            <span class="chip">SpringMVC</span>
+            <span class="chip">Hibernate</span>
+            <span class="chip">Data Structures</span>
+            <span class="chip">Algorithms</span>
+            <span class="chip">OOPs</span>
+            <span class="chip">REST API</span>
+            <span class="chip">Collection Framework</span>
+            <span class="chip">Exception Handeling</span>
+            <span class="chip">Multithreading</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Git</span>
+            <span class="chip">GitHub</span>
+            <span class="chip">Postman</span>
+            <span class="chip">JDBC</span>
+          </div>
+        </div>
+
+      <!-- To add a new skill category: copy a .skill-block above and drop it in the grid -->
+    </section>
+
+     
+     <!-- PROJECTS  -->
+
+    <section class="section" id="projects">
+      <p class="section-eyebrow">Projects</p>
+      <div class="projects-columns">
+        <article class="project-col">
+          <div class="repo-head">
+            <svg class="repo-icon" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Z"
+                stroke="currentColor"
+                stroke-width="1.6"
+              />
+            </svg>
+            <h3>Full-Stack AI Chatbot Application</h3>
+          </div>
+          <p class="project-summary">
+            A domain-aware AI chatbot with a Spring Boot backend that talks to
+            the Groq LLaMA 3.3 API, wrapped in a responsive dark-mode chat UI.
+          </p>
+          <ul class="project-details">
+            <li>
+              Developed a full-stack AI chatbot integrating the Groq LLaMA 3.3
+              API via Spring Boot REST services.
+            </li>
+            <li>
+              Implemented topic-specific prompt engineering for 4 domains with a
+              clean MVC layered architecture.
+            </li>
+            <li>
+              Built a responsive dark-mode chat UI with real-time typing
+              indicators and dynamic suggestion chips.
+            </li>
+            <li>
+              Implemented runtime topic switching across College, Restaurant,
+              Product and Hospital domains.
+            </li>
+            <li>
+              Integrated Groq Cloud API as a cost-free OpenAI-compatible
+              alternative using the RestTemplate HTTP client.
+            </li>
+            <li>
+              Deployed on an embedded Apache Tomcat server (port 8080) via
+              Spring Boot auto-configuration.
+            </li>
+          </ul>
+          <div class="chip-row small">
+            <span class="chip">Spring Boot</span>
+            <span class="chip">REST API</span>
+            <span class="chip">Groq LLaMA 3.3</span>
+            <span class="chip">MVC</span>
+          </div>
+          <!-- <div class="repo-links">
+            <a href="#" class="repo-link">Code →</a>
+            <a href="#" class="repo-link">Live Demo →</a>
+          </div> -->
+        </article>
+
+        <article class="project-col">
+          <div class="repo-head">
+            <svg class="repo-icon" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Z"
+                stroke="currentColor"
+                stroke-width="1.6"
+              />
+            </svg>
+            <h3>Employee Registration Full-Stack Application</h3>
+          </div>
+          <p class="project-summary">
+            A complete employee onboarding system covering the full path from a
+            form in the browser to a row in a MySQL table.
+          </p>
+          <ul class="project-details">
+            <li>
+              Developed a full-stack Employee Registration System using Java,
+              Spring Boot, MySQL, HTML, CSS and JavaScript.
+            </li>
+            <li>
+              Designed a responsive frontend form for employee data collection
+              and registration.
+            </li>
+            <li>
+              Implemented MVC architecture with Controller, Entity and
+              Repository layers for better code organization.
+            </li>
+            <li>
+              Implemented RESTful APIs using Spring Boot and Spring Web for
+              handling employee registration requests.
+            </li>
+            <li>
+              Integrated a MySQL database to store employee information securely
+              and efficiently.
+            </li>
+            <li>
+              Deepened real-world understanding of frontend–backend flow and
+              REST API behavior.
+            </li>
+          </ul>
+          <div class="chip-row small">
+            <span class="chip">Java</span>
+            <span class="chip">Spring Boot</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">REST API</span>
+          </div>
+          <!-- <div class="repo-links">
+            <a href="#" class="repo-link">Code →</a>
+            <a href="#" class="repo-link">Live Demo →</a>
+          </div> -->
+        </article>
+
+        <!-- To add a new project: duplicate an <article class="project-col"> block above.
+         The grid auto-wraps, so a 3rd project will flow onto a new row on its own. -->
+      </div>
+    </section>
+
+    
+     <!-- CERTIFICATIONS -->
+     
+    <section class="section" id="certifications">
+      <p class="section-eyebrow">Certifications</p>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <p class="cert-name">Java Programming</p>
+          <p class="cert-issuer">NPTEL · 2025</p>
+          <p class="cert-desc">
+            Gained proficiency in the Java programming language.
+          </p>
+        </div>
+        <div class="cert-card">
+          <p class="cert-name">SQL Certification</p>
+          <p class="cert-issuer">NPTEL · 2025</p>
+          <p class="cert-desc">
+            Gained understanding of database management and query optimization.
+          </p>
+        </div>
+        <div class="cert-card">
+          <p class="cert-name">1st Prize — Coding Competition</p>
+          <p class="cert-issuer">Hackathon, COER University</p>
+          <p class="cert-desc">
+            Won first place in a coding competition organized by the university.
+          </p>
+        </div>
+      </div>
+      <!-- To add a new certification: copy a .cert-card block above -->
+    </section>
+
+    
+      <!-- EDUCATION -->
+    
+    <section class="section" id="resume">
+      <p class="section-eyebrow">Education</p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+      
+          <div class="timeline-content">
+            <p class="timeline-date">Aug 2021 — May 2025</p>
+            <h3>B.Tech, Computer Science (Minor in AI/ML)</h3>
+            <p class="timeline-desc">
+              College Of Engineering Roorkee. CGPA — 8/10.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <p class="timeline-date">Jun 2019 — Mar 2020</p>
+            <h3>Associate's in Science Stream (PCM)</h3>
+            <p class="timeline-desc">
+              Shri Guru Ram Rai Public School. CGPA — 9/10.
+            </p>
+          </div>
+        </div>
+
+        <!-- To add another entry: duplicate a .timeline-item block above -->
+      </div>
+    </section>
+
+    
+     <!-- CONTACT  -->
+
+    <section class="section" id="contact">
+      <p class="section-eyebrow">Contact</p>
+      <p class="contact-sub">
+        Open to entry-level Java Developer, Backend Developer or Java Full Stack Developer roles — reach out directly or send a
+        message below.
+      </p>
+
+      <div class="contact-grid">
+        <form
+          class="contact-form"
+          id="contactForm"
+          action="https://formspree.io/f/xeajbnbj"
+          method="POST"
+        >
+          <label for="name">name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+          />
+
+          <label for="email">email</label>
+          <input
+            type="email"
+            id="email"
+            name="_replyto"
+            placeholder="your email"
+            required
+          />
+
+          <label for="message">message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Write..."
+            required
+          ></textarea>
+
+          <button type="submit" class="btn btn-primary" id="submitBtn">
+            Send →
+          </button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-info">
+          <a href="mailto:example0044@gmail.com" class="contact-line">
+            <span class="contact-label">email me:</span> anasahmad0044@gmail.com
+          </a>
+          <a href="tel:+911234567890" class="contact-line">
+            <span class="contact-label">phone</span> +91 9368346051
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>
+        &copy; <span id="year"></span> Mohd Anas. Built with HTML, CSS &amp;
+        JavaScript.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
