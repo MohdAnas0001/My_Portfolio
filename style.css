@@ -1,6 +1,6 @@
-/* =========================================================
-   TOKENS
-========================================================= */
+
+   /* TOKENS */
+
 :root{
   --bg: #0B0D10;
   --bg-elev: #12151A;
@@ -20,9 +20,7 @@
   --max-w: 1100px;
 }
 
-/* =========================================================
-   RESET
-========================================================= */
+/* RESET */
 *, *::before, *::after{ box-sizing: border-box; }
 html{ scroll-behavior: smooth; }
 body{
@@ -74,9 +72,7 @@ p{ margin: 0; }
 .reveal{ opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .reveal.in-view{ opacity: 1; transform: translateY(0); }
 
-/* =========================================================
-   BUTTONS
-========================================================= */
+   /* BUTTONS */
 .btn{
   display: inline-flex;
   align-items: center;
@@ -104,9 +100,7 @@ p{ margin: 0; }
 
 .btn:disabled{ opacity: 0.6; cursor: not-allowed; transform: none; }
 
-/* =========================================================
-   NAV
-========================================================= */
+   /* NAV */
 .nav{
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -163,9 +157,7 @@ p{ margin: 0; }
 .hamburger.open span:nth-child(2){ opacity: 0; }
 .hamburger.open span:nth-child(3){ transform: translateY(-7px) rotate(-45deg); }
 
-/* =========================================================
-   HERO
-========================================================= */
+/* HERO */
 .hero{
   min-height: 100vh;
   display: flex;
@@ -299,9 +291,7 @@ p{ margin: 0; }
 }
 @keyframes scrollDot{ 0%{ opacity: 1; top: 6px; } 70%{ opacity: 0; top: 16px; } 100%{ opacity: 0; top: 6px; } }
 
-/* =========================================================
-   ABOUT
-========================================================= */
+/* ABOUT */
 .about-grid{
   display: grid;
   grid-template-columns: 220px 1fr;
@@ -387,9 +377,7 @@ p{ margin: 0; }
   color: var(--accent);
 }
 
-/* =========================================================
-   SKILLS
-========================================================= */
+/* SKILLS */
 .skills-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -468,9 +456,7 @@ p{ margin: 0; }
 }
 .repo-link:hover{ opacity: 0.7; }
 
-/* =========================================================
-   CERTIFICATIONS
-========================================================= */
+/* CERTIFICATIONS */
 .cert-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -531,9 +517,8 @@ p{ margin: 0; }
 .timeline-content h3{ font-size: 17px; margin-bottom: 8px; }
 .timeline-desc{ color: var(--text-muted); font-size: 14px; }
 
-/* =========================================================
-   CONTACT
-========================================================= */
+/* CONTACT */
+
 .contact-sub{ color: var(--text-muted); margin-bottom: 44px; max-width: 56ch; }
 .contact-grid{
   display: grid;
@@ -578,9 +563,8 @@ p{ margin: 0; }
 .contact-line:hover{ color: var(--accent); }
 .contact-label{ font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
 
-/* =========================================================
-   FOOTER
-========================================================= */
+/* FOOTER */
+
 .footer{
   text-align: center;
   padding: 32px;
@@ -590,9 +574,8 @@ p{ margin: 0; }
   font-size: 13px;
 }
 
-/* =========================================================
-   RESPONSIVE
-========================================================= */
+/* RESPONSIVE */
+
 @media (max-width: 900px){
   .hero-inner{ grid-template-columns: 1fr; }
   .hero{ padding-top: 130px; }

@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------- Footer year ---------- */
+  
   document.getElementById('year').textContent = new Date().getFullYear();
 
   /* ---------- Mobile nav toggle ---------- */
